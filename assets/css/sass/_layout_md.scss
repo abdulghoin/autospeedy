@@ -1,0 +1,79 @@
+// ==================================================
+// ========================= LAPTOP MD =========================
+// ==================================================
+
+
+@media (max-width: 1199px) {
+
+  // ========================= Font-Size =========================
+
+
+  // ========================= Layout =========================
+  body {
+    nav {
+      .container {
+        ul {
+          li {
+            a {
+              text-align: center;
+            }
+          }
+        }
+      }
+    }
+
+    main {
+      .slides {
+        padding: 8px 0;
+        .container {
+          .slides-container {
+            .slides-inner {
+              .slide-item {
+                img {
+                  width: 100%;
+                  height: 392px;
+                }
+                .slide-caption {
+                  left: 30px;
+                  top: 30px;
+
+                  h1 {
+                    margin-bottom: 12px;
+                    font-size: 34px;
+                  }
+
+                  p {
+                    margin-bottom: 20px;
+                    font-size: 14px;
+                  }
+
+                  .btn {
+                    font-size: 14px;
+                    padding: 15px 0;
+                    width: 90%;
+                    margin: 0 5%;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    footer {
+      .menu {
+        font-size: 14px;
+        .container {
+          ul {
+            li {
+              a {
+                padding: 22px 12px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+// ==================================================
+// ========================= > MOBILE || < TABLET =========================
+// ==================================================
+
+
+@media (max-width: 767px) {
+
+  // ========================= Font-Size =========================
+
+
+  // ========================= Layout =========================
+
+  body {
+    header {
+      .top-bar {
+        .container {
+          .row {
+            display: inline;
+
+            .col {
+              display: flex;
+              display: -webkit-flex;
+              justify-content: center;
+              -webkit-justify-content: center;
+              margin: 0 0 10px;
+
+              &:last-of-type {
+                margin: 0;
+              }
+            }
+          }
+        }
+      }
+
+      .head {
+        .container {
+          .row {
+            display: inline;
+
+            .col {
+              display: flex;
+              display: -webkit-flex;
+              justify-content: center;
+              -webkit-justify-content: center;
+              margin: 0 0 10px;
+
+              &:last-of-type {
+                margin: 0;
+              }
+            }
+
+            .right {
+              .inner {
+                form {
+                  display: none;
+                }
+
+                .navbar-toggle {
+                  margin: 0 10px 0 0;
+
+                  span {
+                    background-color: $color-ft-header-head;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+
+    nav {
+      .container {
+        ul {
+          display: inline;
+
+          li {
+            float: none;
+          }
+
+          form {
+            display: inline-block;
+            width: 80%;
+            margin: 5px 10% 0;
+
+            input {
+              height: $height-header-head-btn;
+              width: 80%;
+              padding: 0 5%;
+            }
+
+            button {
+              height: $height-header-head-btn;
+              width: 20%;
+            }
+          }
+        }
+      }
+    }
+
+    footer {
+
+      .grid {
+        color: $color-ft-page;
+
+        .container {
+          .row {
+            .col {
+              padding: 35px 15px;
+              border-left: none;
+              border-top: 1px solid $color-border;
+
+              &:first-of-type {
+                border: none;
+              }
+
+              h5 {
+              }
+
+              .content {
+              }
+
+              .newsletter {
+                form {
+                  input {
+                  }
+
+                  button {
+                  }
+                }
+              }
+
+              .socmed {
+                span {
+                  a {
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+
+      .menu {
+        font-size: 11px;
+        .container {
+          ul {
+            li {
+              a {
+                padding: 16px 8px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title></title>
+
+
+    <!-- ========= Fons ========= -->
+
+
+    <!-- ========== Stylesheet ========== -->
+    <link rel="stylesheet" href="assets/css/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="assets/css/css_style.css" />
+
+    <!-- ========== JavaScript ========== -->
+    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+  </head>
+
+  <body>
+    <header>
+      <section class="top">
+
+      </section>
+
+      <section class="top-bar">
+        <div class="container">
+          <div class="row">
+            <div class="socmed col col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <span>
+                <a class="facebook" href="#">
+                  <i class="fa fa-facebook" aria-hidden="true"></i>
+                </a>
+
+                <a class="twitter" href="#">
+                  <i class="fa fa-twitter" aria-hidden="true"></i>
+                </a>
+
+                <a class="google-plus" href="#">
+                  <i class="fa fa-google-plus" aria-hidden="true"></i>
+                </a>
+              </span>
+            </div>
+
+            <div class="costumer col col-lg-8 col-md-8 col-sm-8 col-xs-12">
+              <div class="right">
+                <span>
+                  <a href="#">Sign in</a> or <a href="#">Create an account</a>
+                </span>
+                <span>
+                  <a href="#">$4.99 shipping on all USA orders</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="head">
+        <div class="container">
+          <div class="row">
+            <div class="logo col col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <a href="/">
+                <img src="assets/img\img_logo.png" alt="" />
+              </a>
+            </div>
+
+            <div class="right col col-lg-8 col-md-8 col-sm-8 col-xs-12">
+              <div class="inner">
+                <form class="tracking" action="index.html" method="post">
+                  <input type="number" min="1" name="tracking-number" placeholder="Tracking Number"
+                      value="">
+                  <button class="btn" type="button" name="button">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  </button>
+                </form>
+
+                <a class="btn navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </a>
+
+                <a href="#" class="btn cart-btn">
+                  <i class="fa fa-shopping-cart" aria-hidden="true"></i> my cart
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <nav>
+      <div class="container">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul>
+            <form class="tracking" action="index.html" method="post">
+              <input type="number" min="1" name="tracking-number" placeholder="Tracking Number"
+                  value="">
+              <button class="btn" type="button" name="button">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+              </button>
+            </form>
+
+            <li class="active"><a href="#">HOME</a></li>
+            <li><a href="#">AUTO ACCESSORIES</a></li>
+            <li><a href="#">AUTO ELECTRONICS</a></li>
+            <li><a href="#">AUTO LIGHTING</a></li>
+            <li><a href="#">CAR CARE & CLEANING</a></li>
+            <li><a href="#">OIL & LUBRICANT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section class="slides">
+        <div class="container">
+          <div class="slides-container">
+
+            <div class="slides-inner">
+              <div class="slide-item">
+                <img src="assets/img\img_slide-1.png" alt="" />
+
+                <div class="slide-caption text-center">
+                  <h1>Free Shipping</h1>
+                  <p>
+                    Anywhere in singapore
+                  </p>
+                  <h1>Shipping worldwide</h1>
+                  <p>
+                    anywhere in the world
+                  </p>
+                  <a class="btn" href="#">Click here for more info>></a>
+                </div>
+              </div>
+
+              <div class="slide-item">
+                <img src="assets/img\img_slide-2.png" alt="" />
+
+                <div class="slide-caption text-center">
+                  <h1>Free Shipping</h1>
+                  <p>
+                    dfshjxs
+                  </p>
+                  <h1>Shipping worldwide</h1>
+                  <p>
+                    anywhere in the world
+                  </p>
+                  <a class="btn" href="#">Click here for more info>></a>
+                </div>
+              </div>
+            </div>
+
+
+            <script>
+              var myIndex = 0;
+              carousel();
+
+              function carousel() {
+                var i;
+                var x = document.getElementsByClassName("slide-item");
+                var y = document.getElementsByClassName("slide-caption");
+                var z = x + y;
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";
+                  y[i].style.display = "none";
+                }
+                myIndex++;
+                if (myIndex > x.length) {
+                  myIndex = 1
+                }
+                x[myIndex - 1].style.display = "block";
+                y[myIndex - 1].style.display = "block";
+                setTimeout(carousel, 20000); // Change image every 16 seconds
+              }
+            </script>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="featured_collections">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <a href="#">
+                <div class="image">
+                  <img src="assets/img\img_col-1.png" alt="" />
+                </div>
+                <h4>interior</h4>
+              </a>
+            </div>
+
+            <div class="col col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <a href="#">
+                <div class="image">
+                  <img src="assets/img\img_col-2.png" alt="" />
+                </div>
+                <h4>exterior</h4>
+              </a>
+            </div>
+
+            <div class="col col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <a href="#">
+                <div class="image">
+                  <img src="assets/img\img_col-3.png" alt="" />
+                </div>
+                <h4>on sale</h4>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="featured_products">
+        <div class="title text-center">
+          <div class="container">
+            <h3>featured products</h3>
+            <div class="decor">
+            </div>
+          </div>
+        </div>
+        <div class="products text-center">
+          <div class="container">
+            <div class="row">
+              <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="#">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      <img src="assets/img\img_product-1.png" alt="" />
+                    </div>
+                    <div class="panel-footer">
+                      <div class="decor"></div>
+                      <p>
+                        Foldable Car Wash Bucket
+                      </p>
+                      <h3>S$8.50 was S$9.50</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="#">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      <img src="assets/img\img_product-1.png" alt="" />
+                    </div>
+                    <div class="panel-footer">
+                      <div class="decor"></div>
+                      <p>
+                        Foldable Car Wash Bucket
+                      </p>
+                      <h3>S$8.50 was S$9.50</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="#">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      <img src="assets/img\img_product-1.png" alt="" />
+                    </div>
+                    <div class="panel-footer">
+                      <div class="decor"></div>
+                      <p>
+                        Mothers California Gold Micro Polishing Glaze (Step 2 of 3) - 475ml
+                      </p>
+                      <h3>S$17.50</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="#">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      <img src="assets/img\img_product-1.png" alt="" />
+                    </div>
+                    <div class="panel-footer">
+                      <div class="decor"></div>
+                      <p>
+                        Mothers California Gold Micro Polishing Glaze (Step 2 of 3) - 475ml
+                      </p>
+                      <h3>S$8.50 was S$9.50</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="#">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      <img src="assets/img\img_product-1.png" alt="" />
+                    </div>
+                    <div class="panel-footer">
+                      <div class="decor"></div>
+                      <p>
+                        Foldable Car Wash Bucket
+                      </p>
+                      <h3>S$8.50 was S$9.50</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="col col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                <a href="#">
+                  <div class="panel panel-default">
+                    <div class="panel-body">
+                      <img src="assets/img\img_product-1.png" alt="" />
+                    </div>
+                    <div class="panel-footer">
+                      <div class="decor"></div>
+                      <p>
+                        Mothers California Gold Scratch Remover - 235ml
+                      </p>
+                      <h3>S$8.50 was S$9.50</h3>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="featured_content">
+        <div class="container text-center">
+          <h2>Auto Speedy - Car Accessories and Car Care Products in Singapore</h2>
+          <h3>A wide range of car accessories including car cleaning products, mobile phone mounts</h3>
+          <p>
+            Looking for cheap car accessories in Singapore? Auto Speedy is the right choice for
+            you. Auto Speedy offer convenient to people who wish to buy car accessories
+            and car care products online in Singapore with reasonable rates from
+            the comfort of your home. We provide great selection of car accessories
+            products that might interest you with value-added services such as secure
+            payment, free delivery and products warranty
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="grid">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <h5>ONLINE CUSTOMER SERVICE</h5>
+              <div class="content">
+                <p>
+                  contact@autospeedy.com
+                  <br> (111) 234-5678
+                  <br> M-F 9am - 6pm pst
+                </p>
+              </div>
+            </div>
+
+            <div class="col col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <h5>JOIN THE CLUB FOR DEALS & INFO</h5>
+              <div class="content newsletter">
+                <form class="" action="index.html" method="post">
+                  <input type="email" name="email" placeholder="Your email" value="">
+                  <button type="button" name="button">submit</button>
+                </form>
+              </div>
+            </div>
+
+            <div class="col col-lg-4 col-md-4 col-sm-4 col-xs-12">
+              <h5>FOLLOW US ON THE MOVE</h5>
+              <div class="content socmed">
+                <span>
+                  <a class="facebook" href="#">
+                    <i class="fa fa-facebook" aria-hidden="true"></i>
+                  </a>
+
+                  <a class="twitter" href="#">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+                  </a>
+
+                  <a class="google-plus" href="#">
+                    <i class="fa fa-google-plus" aria-hidden="true"></i>
+                  </a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="menu">
+        <div class="container">
+          <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">MENU</a></li>
+            <li><a href="#">SHOP</a></li>
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">CONTACT</a></li>
+            <li><a href="#">BLOG</a></li>
+            <li><a href="#">CATERING</a></li>
+            <li><a href="#">DELIVERY</a></li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="copyright">
+        <div class="container">
+          <p class="text-center">
+            &copy; Copyright 2015 - All Rights Reserved
+          </p>
+        </div>
+      </section>
+    </footer>
+  </body>
+
+</html>
